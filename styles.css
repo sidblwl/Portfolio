@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-image: url('images/bg7.png');
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed;
+    background-size: cover; */
+}
+
+.home{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.subheading{
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 3.5vh;
+    margin-bottom: 10vh;
+}
+
+.navMenu{
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    display: inline-block;
+    text-align: left;
+    line-height: 5vh;
+    font-size: 3vh;
+}
+
+h3{
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 3.5vh;
+}
+
+h2{
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 3vh;
+}
+
+.page0{
+    display: none;
+}
+
+.page1{
+    display: none;
+}
+
+.page2{
+    display: none;
+}
+
+.page3{
+    display: none;
+}
+
+.close{
+    width: 4vw;
+}
+
+.aboutWrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+p{
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.textBubble{
+    margin-top: 5vh;
+    padding: 1vw 3vw 2vw 3vw;
+    border: 3px solid white;
+    border-radius: 1vw;
+    background-color: rgba(71, 71, 71, 0.8);
+}
